@@ -8,7 +8,7 @@ import os
 dirname = os.path.dirname(__file__)
 
 df = pd.read_csv(
-        os.path.join(dirname,'../sample_data/data/AAPL.csv'))
+        os.path.join(dirname,'../../sample_data/data/AAPL.csv'))
 
 df['Date'] = pd.to_datetime(df['Date'])
 
